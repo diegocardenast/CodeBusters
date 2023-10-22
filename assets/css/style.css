@@ -8,9 +8,9 @@ h1 {
 #gameaudio {
     position: absolute;
     bottom: 0;
-    right:0;
-    width:100%;
-    height:5%;
+    right: 0;
+    width: 100%;
+    height: 5%;
     min-height: 21.5px;
 }
 
@@ -24,7 +24,7 @@ h1 {
     align-items: center;
 }
 
-#levelnamecenter{
+#levelnamecenter {
     display: flex;
     flex-direction: column;
 }
@@ -34,7 +34,7 @@ h1 {
     font-weight: 700;
     font-size: 2.5vw;
     letter-spacing: 2px;
-    color:  #f7eac8;
+    color: #f7eac8;
     text-shadow: rgb(241, 173, 47) 2px 0 5px;
     text-align: left;
     background: rgba(2, 25, 68, 0.2);
@@ -51,7 +51,7 @@ h1 {
 
 }
 
-.jackLifeIcon{
+.jackLifeIcon {
     width: 5%;
     height: 100%;
     margin-bottom: 1%;
@@ -62,7 +62,7 @@ h1 {
     font-family: Nosifer;
     font-size: 1rem;
     color: #ffffff;
-    margin-bottom: 0%; 
+    margin-bottom: 0%;
 }
 
 
@@ -71,15 +71,16 @@ h1 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-  }
+}
+
 #timer {
     font-family: Nosifer;
     font-size: 1rem;
     font-weight: bold;
-    color: #ffffff; 
+    color: #ffffff;
 }
 
-#ghosts-killed{
+#ghosts-killed {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -91,7 +92,7 @@ h1 {
     font-family: Nosifer;
     font-size: 1rem;
     color: #ffffff;
-    margin-bottom: 0%; 
+    margin-bottom: 0%;
 }
 
 /* Monster-verse */
@@ -99,6 +100,7 @@ h1 {
     width: 2.5rem;
     height: auto;
 }
+
 /* Game  */
 body {
     background: linear-gradient(45deg, #11021f, #021322);
@@ -138,7 +140,7 @@ body {
     padding-left: 50px;
 }
 
-#logo img{
+#logo img {
     width: 80%;
     height: auto;
 
@@ -207,40 +209,41 @@ a {
 }
 
 #monster-verse {
-    margin-top:100px;
+    margin-top: 100px;
 }
 
 /* Closing button for instructions */
 #close-instructions {
     font-size: 1.2rem;
     font-weight: bold;
-  }
+}
 
- .fa-ghost {
-   color: #ff6346;
- }
+.fa-ghost {
+    color: #ff6346;
+}
 
- .set-of-rules {
+.set-of-rules {
     text-align: left;
- }
+}
 
- #jack-image {
+#jack-image {
     width: 2.5rem;
     height: auto;
- }
+}
 
- /* Go-back-to-menu button in the game page */
+/* Go-back-to-menu button in the game page */
 #go-back-menu-container {
     width: 0.2rem;
     height: 0.2rem;
-} 
+}
+
 #go-back-to-menu {
     padding: 0.2;
     font-size: 1.5rem;
     border-radius: 1.3rem;
 }
 
- /* Return to Homepage button in the game page */
+/* Return to Homepage button in the game page */
 #go-back-to-menu {
     padding: 0.1;
     font-size: 1.5rem;
@@ -251,21 +254,19 @@ a {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-    
+
     /* Index page */
-    #menu-buttons{
+    #menu-buttons {
         margin-top: 10%;
     }
 
-    #logo {
-        
-    }
+    #logo {}
 
     #logo img {
         width: 50%;
         height: auto;
     }
-    
+
 
 }
 
@@ -273,7 +274,7 @@ a {
 @media screen and (min-width: 992px) {
 
     /* Index page */
-    #menu-buttons{
+    #menu-buttons {
         margin-top: 12%;
     }
 
