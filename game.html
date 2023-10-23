@@ -29,28 +29,32 @@
   </head>
 
   <body>
-    <div class="game-info-bar">
-      <div id="levelnamecenter">
-        <h1 id="levelname1">Spectral Shenanigans On Main Street</h1>
-        <!--Here comes the heart icon and the lives counter-->
-        <!-- Player's lives-->
-        <div id="player-lives-bar">
-          <img class="jackLifeIcon" src="assets/images/jackLifeIcon.png" alt="pumpkin">
-          <p class ="lives" id="player-lives"></p>
-        </div>
-      </div>
-      <div class="time-container">
-        <div id="timer">00:00</div>
-      </div>
-      <div id="ghosts-killed-container">
-        <i id="ghost" class="fa-solid fa-ghost fa-lg" style="color: #ffffff"></i>
-        <p id="ghosts-points"></p>
-      </div>
+    <div id="levelnamecenter">
+      <h1 id="levelname1" class="text-center">Spectral Shenanigans On Main Street</h1>
       <!-- Button to return to Homepage -->
-      <button type="button" id="go-back-to-menu">
-        <i class="fa-solid fa-house"></i>
-      </button>
-    </div>
+      <div id="go-back-to-menu-container">
+        <button type="button" id="go-back-to-menu">
+          <i class="fa-solid fa-house"></i>
+        </button>
+      </div>
+        </div>
+          <div class="game-bar">
+            <div class="game-info-bar">
+              <div id="player-lives-bar">
+                <img class="jackLifeIcon" src="assets/images/jackLifeIcon.png" alt="pumpkin">
+                <p class ="lives" id="player-lives"></p>
+              </div>
+              <div class="game-info-right">
+                <div class="time-container">
+                  <div id="timer">00:00</div>
+                </div>
+                <div id="ghosts-killed-container">
+                  <i id="ghost" class="fa-solid fa-ghost fa-lg" style="color: #FFFFFF"></i>
+                  <p id="ghosts-points"></p>
+                </div>
+              </div>
+           </div>
+          </div>
         
 
     <audio id="gameaudio" controls loop>

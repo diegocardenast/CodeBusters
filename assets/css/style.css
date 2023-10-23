@@ -15,51 +15,58 @@ h1 {
     min-height: 21.5px;
 }
 
-.game-info-bar {
+.game-bar {
     width: 80%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%,-50%);
+}
+.game-info-bar {
+    width: 90%;
     margin: auto;
-    margin-top: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
-
+.game-info-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 #levelnamecenter{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+    margin-top: 20px;
 }
-
 #levelname1 {
     font-family: Creepster;
     font-weight: 400;
-    font-size: 2vw;
+    font-size: 3vw;
     letter-spacing: 1px;
-    color:  #f7eac8;
+    color:  #F7EAC8;
     text-shadow: rgb(241, 173, 47) 2px 0 5px;
     text-align: left;
-    background: rgba(2, 25, 68, 0.2);
-    border: 1px solid rgba(54, 13, 150, 0.8);
-    border-radius: 25px;
-    box-shadow: 0px 0px 15px 1px rgb(50, 145, 189);
     padding: 0.7rem;
 }
-
 #player-lives-bar {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-
 }
 #player.lives {
     white-space: pre;
     align-items: right;
 }
-
 .jackLifeIcon {
-    width: 20%;
-    height: auto;
+    width: 25px;
+    height: 25px;
     margin-bottom: 1%;
 }
 
@@ -89,7 +96,8 @@ h1 {
     font-family: Nosifer;
     font-size: 1rem;
     font-weight: bold;
-    color: #ffffff; 
+    color: #ffffff;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; 
 }
 
 #ghosts-killed-container{
@@ -306,7 +314,7 @@ a {
 
  /* Return to Homepage button in the game page */
 #go-back-to-menu {
-    padding: 0.1;
+    margin: 10px;
     font-size: 1.5rem;
     border-radius: 1.5rem;
     width: auto;
@@ -349,17 +357,16 @@ a {
     }
 
     #levelname1{
-        font-size: 1.5vw;
-    }
-
-    .jackLifeIcon {
-        width: 6%;
+        font-size: 2.5vw;
     }
 
     #gameOver {
         margin-top: 20%;
     }
 
+    .game-bar {
+        top: 25%;
+    }
 }
 
 /* Media query: laptops and larger (992px and up) */
@@ -375,9 +382,6 @@ a {
     }
 
     /* Game Page*/
-    .jackLifeIcon {
-        width: 6%;
-    }
 
     #gameOver {
         margin-top: 10%;
