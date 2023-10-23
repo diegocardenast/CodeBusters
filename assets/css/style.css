@@ -58,7 +58,7 @@ h1 {
 }
 
 .jackLifeIcon {
-    width: 6%;
+    width: 20%;
     height: auto;
     margin-bottom: 1%;
 }
@@ -309,6 +309,14 @@ a {
         height: auto;
     }
     
+    /* Game page */
+    #levelname1{
+        font-size: 1.5vw;
+    }
+
+    .jackLifeIcon {
+        width: 6%;
+    }
 
 }
 
@@ -324,4 +332,8 @@ a {
         width: 25%;
     }
 
+    /* Game Page*/
+    .jackLifeIcon {
+        width: 6%;
+    }
 }
