@@ -73,21 +73,36 @@ __Sound ON/OFF__
 
   - The full responsive navigation bar includes links to the Game page, Instructions and Contact page, and is identical in each page to allow for easy navigation. 
 
-![Sound ON/OFF](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/)
+![Sound ON/OFF](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/readme/sound-on-off.png)
 
 __Index__
 
   - The full responsive navigation bar includes links to the Game page, Instructions and Contact page, and is identical in each page to allow for easy navigation. 
 
-![Index](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/)
+![Index](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/readme/index_image.png)
 
 __Art Content__
 
 - Some ghosts were created by the team as well as the team and game logo. 
 
-![Game Logo](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/)
+![Game Logo](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/ghostHuntersLogo.png)
 
-![Ghosts](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/)
+![Ghosts](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/naughty_ghost.png)
+
+__In-game Information__
+
+  - The time counter, the name of the schenario, pumpkins (lives) counter and how many ghosts you have hunt are part of the visual tools for the user/player. 
+
+![inGameInfo](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/readme/gameInfo.png)
+
+__Game Story & Instructions__
+
+  - The descriptions of the characters and how to play. 
+
+![gameStory](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/readme/characters.png)
+![Instructions](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/readme/instructions.png)
+
+
 
 ### Features Left to Implement
 <!--TODO: Add any nice to have feature that was not implemented-->
