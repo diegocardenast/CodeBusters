@@ -19,7 +19,7 @@ const backgroundScreens = [
   const CANVAS_W = (canvas.width = newWidth - newWidth * 0.2);
   const CANVAS_H = (canvas.height = newHeight - newHeight * 0.3);
 
-  let gameSpeed = 1;
+  let gameSpeed = 5;
   let gameFrame = 0;
   let maxGhosts = 5;
 let STAGE = 0;
@@ -163,8 +163,8 @@ goBackToMenuButton.addEventListener('click', function(){
       this.speed = Math.random() + 0.1;
       this.spriteW = 100;
       this.spriteH = 90;
-      this.width = this.spriteW;
-      this.height = this.spriteH;
+      this.width = 25 + (this.spriteW * CANVAS_W) / 3000;
+      this.height = 25 + (this.spriteW * CANVAS_W) / 3000;
       this.x = x - this.width / 2;
       this.y = y - this.height / 2;
       this.image = new Image();
@@ -211,8 +211,8 @@ goBackToMenuButton.addEventListener('click', function(){
       const distance = Math.sqrt(dx * dx + dy * dy);
       const directionX = dx / distance;
       const directionY = dy / distance;
-      this.x += this.speed * directionX;
-      this.y += this.speed * directionY;
+      this.x += this.speed * directionX * CANVAS_W / 1500;
+      this.y += this.speed * directionY * CANVAS_H / 800;
 
       if (gameFrame % this.innerMoveSpeed == 0)
         this.frame >= 4 ? (this.frame = 0) : this.frame++;
@@ -293,7 +293,7 @@ goBackToMenuButton.addEventListener('click', function(){
   
   class MainChar {
     constructor(image) {
-      this.x = 200;
+      this.x = CANVAS_W / 5;
       this.y = CANVAS_H - CANVAS_H / 3.5;
       this.speed = 0;
       this.spriteW = 102;

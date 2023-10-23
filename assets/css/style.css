@@ -209,7 +209,7 @@ body {
     text-align: center;
 }
 
-#end-game{
+#end-game-button{
     margin-top: 10px;
 }
 
@@ -340,10 +340,6 @@ a {
 
     #menu-buttons{
         margin-top: 10%;
-    }
-
-    #logo { 
-        margin-bottom: 120px;
     }
 
     #logo img {
