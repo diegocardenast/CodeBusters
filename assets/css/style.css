@@ -185,6 +185,25 @@ body {
 
 }
 
+#score{
+    background: #CA8639;
+    text-align: center;
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#gameOver {
+    margin-top: 50%;
+}
+
+#gameOverBody {
+    text-align: center;
+}
+
+#end-game{
+    margin-top: 10px;
+}
 
 
 
@@ -316,6 +335,10 @@ a {
 
     .jackLifeIcon {
         width: 6%;
+    }
+
+    #gameOver {
+        margin-top: 20%;
     }
 
 }
