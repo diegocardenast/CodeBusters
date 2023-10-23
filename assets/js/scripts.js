@@ -1,13 +1,4 @@
 
-// Variables for modal box
-const closeGameOver = document.getElementById('end-game-button');
-
-// End game when clicking on button
-closeGameOver.onclick = function () {
-  window.location='index.html';
-}
-
-
 //GAME PAGE
 let pause = false;
 
@@ -32,8 +23,6 @@ const backgroundScreens = [
   let gameFrame = 0;
   let maxGhosts = 5;
 let STAGE = 0;
-  const startBtn = document.getElementById("start-btn");
-  const restartBtn = document.getElementById("end-game");
   const gameOverDisplay = document.getElementById("gameOver");
   const displayPoints = document.getElementById("ghosts-points");
   const displayLives = document.getElementById("player-lives");
@@ -303,7 +292,7 @@ goBackToMenuButton.addEventListener('click', function(){
     }
   
   class MainChar {
-    constructor(image, speedModifier) {
+    constructor(image) {
       this.x = 200;
       this.y = CANVAS_H - CANVAS_H / 3.5;
       this.speed = 0;
@@ -336,9 +325,6 @@ goBackToMenuButton.addEventListener('click', function(){
         this.width + 10,
         this.height + 20
       );
-      // // ctx.beginPath();
-      // // ctx.arc(this.centerX, this.centerY, this.radius, 0, 2 * Math.PI);
-      // // ctx.stroke()
     }
     updateDraw() {
       this.update();
@@ -395,13 +381,11 @@ goBackToMenuButton.addEventListener('click', function(){
       } else {
         if (hasCollided(mainChar.centerX, mainChar.centerY, enemy.centerX, enemy.centerY, mainChar.radius, enemy.radius)) {
           if (LIVES === 1){
+            displayLives.innerHTML = "x 0";
             pause = true;
-            console.log("You are dead!")
             gameOverDisplay.style.display = "block";
-            document.getElementById("score").value = POINTS;
-            restartBtn.addEventListener("click", () => {
-              gameOverDisplay.style.display = "none";
-           })
+            document.getElementById("player_score").value = POINTS;
+            console.log("AFTER MODAL")
           }
           LIVES-=1;
           enemiesArray.splice(i, 1);
@@ -477,31 +461,12 @@ goBackToMenuButton.addEventListener('click', function(){
   }
   animate();
 
-
-  /**
-   * Possible start button?
-   */
-  //startBtn.addEventListener("click", () => {
-  //  animate();
-  //  startBtn.style.display = "none";
- // })
-
-
-  /**
-   * Possible start button?
-   */
-  //startBtn.addEventListener("click", () => {
-  //  animate();
-  //  startBtn.style.display = "none";
- // })
-  
 }
 // run the game
 handleResize();
 // look for resizes on the screen
 window.addEventListener("resize", handleResize);
 // add input handler
-
 
 
 /**

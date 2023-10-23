@@ -47,7 +47,7 @@
         <p id="ghosts-points"></p>
       </div>
       <!-- Button to return to Homepage -->
-      <button type="button" id="go-back-to-menu" aria-label="back-to-index">
+      <button type="button" id="go-back-to-menu">
         <i class="fa-solid fa-house"></i>
       </button>
     </div>
@@ -82,15 +82,15 @@
               <!-- Player's name-->
               <input name="player_name" maxlength="20" type="text" id="player_name" placeholder="Type Your Name" required>
               <!-- Player's Score -->
-              <br><label for="score">Your score:</label><br>
-              <input name="player_score" type="number" value=0 id="score" readonly><br></h3>
+              <br>Your score:<br>
+              <input name="player_score" value=0 id="player_score" readonly><br></h3>
               <!-- Submit Button -->
               <button 
-                type="submit"
                 id="end-game-button"
                 type="button"
                 class="btn btn-secondary"
-                data-dismiss="modal">End Game</button>
+                onclick="saveScore()"
+                >End Game</button>
             </form>
           </div>
           <div class="modal-footer">
@@ -98,7 +98,7 @@
           </div>
         </div>
       </div>
-
+    <script src="assets/js/scores.js"></script>
     <script src="assets/js/scripts.js"></script>
   </body>
 </html>

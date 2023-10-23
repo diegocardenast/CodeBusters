@@ -121,7 +121,7 @@ __Game Story & Instructions__
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?)
 - Lighthouse
   - The result given by the system for the lighthouse assessment is the following:
-![Lighthouse results](https://github.com/diegocardenast/CodeBusters/assets/images/lighthouse-test.png)
+![Lighthouse results](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/lighthouse-test.png)
 
 ### Manual Testing
 <!--TODO Add some manual tests to this table, specially responsiveness tests-->
