@@ -3,7 +3,7 @@
 const audio = document.querySelector('audio');
 const volumeButton = document.getElementById('volumeButton');
 const volumeIcon = document.getElementById('volumeIcon');
-let playMusic = true;
+let playMusic = false;
 audio.volume = 0.05;
 window.onload = function() {
   audio.play();
