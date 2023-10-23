@@ -3,7 +3,6 @@
 
 Ghost hunt is an interactive game where users have to click on randomly appearing ghosts to capture them. The objective of the game is to accumulate points by clicking on as many ghosts as possible within a specified time limit.
 
-<!--TODO: Add Am I responsive image-->
 ![Responsive Mockup](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/am-I-responsive-ghost-hunters.png)
 
 ## User Experience
@@ -68,7 +67,7 @@ __Gameplay__
 ## Features
 
 ### Implemented Features
-<!--TODO: Add implemented features with their respective screenshots-->
+
 __Sound ON/OFF__
 
   - The full responsive navigation bar includes links to the Game page, Instructions and Contact page, and is identical in each page to allow for easy navigation. 
@@ -109,13 +108,12 @@ __Scoreboard__
 ![scoreboard](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/readme/scoreboard.png)
 
 ### Features Left to Implement
-<!--TODO: Add any nice to have feature that was not implemented-->
-- NA
+- Make the game go faster and provide extra points per killed gost
+- Add bonus points functionality
 
 ## Testing
 
 ### Validator Testing 
-<!--TODO Confirm that our code pass without ERRORS all the validators and add lighthouse screenshot-->
 - JavaScript
   - No errors were returned when passing through the official [JSHint validator](https://jshint.com/)
 - HTML
@@ -128,7 +126,6 @@ __Scoreboard__
 ![Lighthouse results](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/lighthouse-test.png)
 
 ### Manual Testing
-<!--TODO Add some manual tests to this table, specially responsiveness tests-->
 **TEST** | **ACTION** | **EXPECTATION** | **RESULT** 
 ----------|----------|----------|----------
 Index | Size to 320px using Chrome Dev Tools	| Elements look good @ 320px | Works as expected
