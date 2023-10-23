@@ -166,7 +166,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 80%;
+    width: 90%;
     height: 70%;
 }
 
@@ -209,6 +209,10 @@ body {
 
 
 /* IndexPage Menu Buttons */
+#menu-buttons{
+
+}
+
 #menu-buttons .btn,
 #volumeButton {
     background-color: #f4f4f4;
@@ -316,12 +320,19 @@ a {
 @media screen and (min-width: 768px) {
     
     /* Index page */
+
+    #menu {
+        width: 80%;
+    }
+
+
     #menu-buttons{
         margin-top: 10%;
     }
 
-    /*#logo { 
-    }*/
+    #logo { 
+        margin-bottom: 120px;
+    }
 
     #logo img {
         width: 50%;
