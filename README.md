@@ -112,11 +112,11 @@ __Art Content__
 <!--TODO Add some manual tests to this table, specially responsiveness tests-->
 **TEST** | **ACTION** | **EXPECTATION** | **RESULT** 
 ----------|----------|----------|----------
-Home page | Size to 320px using Chrome Dev Tools	| Elements look good @ 320px | Works as expected
-Home page | Size to 1920px using Chrome Dev Tools | Elements look good 1920px | Works as expected
-Contact form | Click send button without data in form fields | Cannot submit form | Works as expected
-Nav bar - home page | Click nav buttons | That each nav element takes me to the correct page site page | Works as expected
-Home page test | All phone sizes checked using Chrome Dev Tools | Elements look good | Works at expected
+Index | Size to 320px using Chrome Dev Tools	| Elements look good @ 320px | Works as expected
+Index | Size to 1920px using Chrome Dev Tools | Elements look good 1920px | Works as expected
+Game | Size to 320px using Chrome Dev Tools	| Elements look good @ 320px | Works as expected
+Game | Size to 1920px using Chrome Dev Tools | Elements look good 1920px | Works as expected
+Index page test | All phone sizes checked using Chrome Dev Tools | Elements look good | Works at expected
 Game page test | All phone sizes checked using Chrome Dev Tools | Elements overlap and game runs faster at lower resolutions | Does not work as expected 
 
 
@@ -132,7 +132,7 @@ Game page test | All phone sizes checked using Chrome Dev Tools | Elements overl
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found [HERE]()<!--TODO Add deployed project URL between the brackets-->
+The live link can be found [HERE](https://diegocardenast.github.io/CodeBusters/)
 
 
 ## Credits
@@ -162,10 +162,10 @@ The live link can be found [HERE]()<!--TODO Add deployed project URL between the
 
 Thank You!
 
-Diego Cardenas
-Adam Fairley
-Jamie Bradford
-Matheus Cafalchio
-Mimmi Stockman
-Stefania Frustagli
-Omar Al-mehdhar
+Diego Cardenas  
+Adam Fairley  
+Jamie Bradford  
+Matheus Cafalchio  
+Mimmi Stockman  
+Stefania Frustagli  
+Omar Al-mehdhar  

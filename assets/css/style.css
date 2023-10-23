@@ -150,7 +150,7 @@ body {
     border-radius: 10px;
     background-color: white;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -194,7 +194,7 @@ body {
 }
 
 #gameOver {
-    margin-top: 50%;
+    margin-top: 10%;
 }
 
 #gameOverBody {
@@ -205,6 +205,9 @@ body {
     margin-top: 10px;
 }
 
+#player_name{
+    text-align: center;
+}
 
 
 
@@ -341,6 +344,10 @@ a {
     }
     
     /* Game page */
+    #canvas {
+    top: 55%;
+    }
+
     #levelname1{
         font-size: 1.5vw;
     }
@@ -350,7 +357,7 @@ a {
     }
 
     #gameOver {
-        margin-top: 10%;
+        margin-top: 20%;
     }
 
 }
@@ -371,4 +378,9 @@ a {
     .jackLifeIcon {
         width: 6%;
     }
+
+    #gameOver {
+        margin-top: 10%;
+    }
+
 }
