@@ -4,7 +4,7 @@
 Ghost hunt is an interactive game where users have to click on randomly appearing ghosts to capture them. The objective of the game is to accumulate points by clicking on as many ghosts as possible within a specified time limit.
 
 <!--TODO: Add Am I responsive image-->
-![Responsive Mockup](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/)
+![Responsive Mockup](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/am-I-responsive-ghost-hunters.png)
 
 ## User Experience
 
