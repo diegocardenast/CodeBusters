@@ -47,7 +47,7 @@
         <p id="ghosts-points"></p>
       </div>
       <!-- Button to return to Homepage -->
-      <button type="button" id="go-back-to-menu">
+      <button type="button" id="go-back-to-menu" aria-label="back-to-index">
         <i class="fa-solid fa-house"></i>
       </button>
     </div>
@@ -82,7 +82,7 @@
               <!-- Player's name-->
               <input name="player_name" maxlength="20" type="text" id="player_name" placeholder="Type Your Name" required>
               <!-- Player's Score -->
-              <br>Your score:<br>
+              <br><label for="score">Your score:</label><br>
               <input name="player_score" type="number" value=0 id="score" readonly><br></h3>
               <!-- Submit Button -->
               <button 
