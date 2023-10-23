@@ -19,6 +19,13 @@ function toggleAudio() {
   }
 }
 
+try {
+  volumeButton.addEventListener('click', toggleAudio);
+} catch (error) {
+  console.log("Volume button not found")
+  console.log(playMusic)
+}
+
 
 // Variables for modal box
 const closeInstructions = document.getElementById('close-instructions');
