@@ -4,7 +4,10 @@ const audio = document.querySelector('audio');
 const volumeButton = document.getElementById('volumeButton');
 const volumeIcon = document.getElementById('volumeIcon');
 let playMusic = true;
-
+audio.volume = 0.05;
+window.onload = function() {
+  audio.play();
+}
 
 // Mute and mute index page
 function toggleAudio() {
