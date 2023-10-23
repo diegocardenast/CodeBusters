@@ -102,7 +102,11 @@ __Game Story & Instructions__
 ![gameStory](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/readme/characters.png)
 ![Instructions](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/readme/instructions.png)
 
+__Scoreboard__
 
+  - It saves the scores of the players. 
+
+![scoreboard](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/readme/scoreboard.png)
 
 ### Features Left to Implement
 <!--TODO: Add any nice to have feature that was not implemented-->
